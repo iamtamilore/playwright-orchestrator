@@ -1,0 +1,12 @@
+{
+  "name": "playwright-orchestrator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Profile-safe Playwright CLI orchestration for OpenCode and Claude Code",
+  "scripts": {
+    "test": "uv run --with pytest --with-editable . pytest -q"
+  },
+  "dependencies": {
+    "@playwright/cli": "0.1.25"
+  }
+}
